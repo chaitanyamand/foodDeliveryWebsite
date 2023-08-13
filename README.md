@@ -16,4 +16,6 @@ node index.js
 npm install
 npm start
 
+6.Don't forget to change mongoDB url to your db created in your atlas in 'yourFolderName/backend/db.js' 
+
 
