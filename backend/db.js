@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://chaitanyam187:Pushpa216@cluster0.ngwrbuw.mongodb.net/goFoodMern?retryWrites=true&w=majority';
+const mongoURI = 'mongodb://<!#@!#@>:"!@!@"@merncluster-shard-00-00.d1d4z.mongodb.net:27017,merncluster-shard-00-01.d1d4z.mongodb.net:27017,merncluster-shard-00-02.d1d4z.mongodb.net:27017/Customer?ssl=true&replicaSet=atlas-eusy5p-shard-0&authSource=admin&retryWrites=true&w=majority' // Customer change url to your db you created in atlas
+// mongodb://<username>:<password>@merncluster-shard-00-00.d1d4z.mongodb.net:27017,merncluster-shard-00-01.d1d4z.mongodb.net:27017,merncluster-shard-00-02.d1d4z.mongodb.net:27017/?ssl=true&replicaSet=atlas-eusy5p-shard-0&authSource=admin&retryWrites=true&w=majority
 const mongoDB = async () => {
     await mongoose.connect(mongoURI, { useNewUrlParser: true }, async (err, result) => {
         if (err) {
