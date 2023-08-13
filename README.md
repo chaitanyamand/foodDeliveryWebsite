@@ -1,3 +1,5 @@
+Welcome to the Food Delivery Website built using the MERN (MongoDB, Express.js, React, Node.js) stack! This project aims to provide users with a seamless and delightful experience while ordering their favorite meals online.
+To see and test the website :
 1.clone this repo with the following command:
 
 git clone https://github.com/chaitanyamand/foodDeliverySystem.git
